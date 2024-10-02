@@ -1,0 +1,20 @@
+.side {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--gray);
+  max-height: 100vh;
+  padding: 0 3rem 0 2.5rem;
+  width: 400px;
+}
+.searchBar {
+  margin-bottom: 1rem;
+}
+
+.menu__footer {
+  display: flex;
+  align-items: center;
+}
+.trends {
+  flex: 1;
+  height: 100%;
+}

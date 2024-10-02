@@ -10,10 +10,4 @@
 .content {
   flex: 1;
   height: 100vh;
-  padding: 0 5rem;
-}
-.side {
-  height: 100vh;
-  width: 400px;
-  padding: 0 5rem;
 }

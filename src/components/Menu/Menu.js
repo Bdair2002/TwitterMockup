@@ -1,5 +1,5 @@
 import React from "react";
-import Account from "../Account/Account";
+import Account from "./Account";
 import Button from "./Button";
 import Logo from "./Logo";
 import data from "./data";
@@ -17,7 +17,7 @@ const Menu = () => {
   let user = {
     profilePicture: "./img/pfp.jpg",
     nickname: "Mohammad Bdair",
-    username: "MohammadBdair123",
+    username: "@MohammadBdair123",
   };
   let src = "./img/x.png";
   return (
@@ -28,8 +28,9 @@ const Menu = () => {
       <ul>{lists}</ul>
 
       <Button>Post</Button>
-      <footer className="footer">
+      <footer className="menu__footer">
         <Account user={user} />
+        <p className="showMore">...</p>
       </footer>
     </div>
   );

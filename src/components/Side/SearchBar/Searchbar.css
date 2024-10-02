@@ -1,0 +1,13 @@
+input {
+  width: 100%;
+  padding: 0.5rem 2rem 0.5rem 3rem;
+  border-radius: 2rem;
+  outline: none;
+  background-color: var(--secondary);
+  background-image: url(/public/img/searc.png);
+  color: var(--extraWhite);
+  background-repeat: no-repeat;
+  background-position: 10px 0px;
+  background-size: 25px;
+  border: none;
+}
