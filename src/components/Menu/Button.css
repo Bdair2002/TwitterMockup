@@ -1,0 +1,11 @@
+.btn {
+  width: 90%;
+  padding: 0.8rem 2rem;
+  color: var(--extraWhite);
+  font-weight: 600;
+  font-size: 0.8rem;
+  background-color: var(--primary);
+
+  border-radius: 2rem;
+  outline: none;
+}
