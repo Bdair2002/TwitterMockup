@@ -1,0 +1,17 @@
+.Container {
+  background-color: var(--secondary);
+  border-radius: 9px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.Container .showMore {
+  all: unset;
+  color: var(--primary);
+  font-size: 0.7rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+.Container li {
+  list-style: none;
+}

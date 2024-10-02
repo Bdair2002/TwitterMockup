@@ -1,0 +1,27 @@
+.trend {
+  color: #fff;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+.genre,
+.posts {
+  color: var(--gray);
+  font-size: 0.7rem;
+  margin: 0;
+}
+.trend__title {
+  font-size: 0.8rem;
+  margin-bottom: 0rem;
+}
+#showMore {
+  margin-left: auto;
+  color: var(--gray);
+}
+.trend__header {
+  display: flex;
+}
