@@ -27,10 +27,12 @@ const Menu = () => {
       </header>
       <ul>{lists}</ul>
 
-      <Button>Post</Button>
+      <Button className="btn">Post</Button>
       <footer className="menu__footer">
         <Account user={user} />
-        <p className="showMore">...</p>
+        <p className="showMore">
+          <i className="fa-solid fa-ellipsis"></i>
+        </p>
       </footer>
     </div>
   );

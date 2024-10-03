@@ -3,31 +3,7 @@
   align-items: center;
   justify-content: center;
 }
-.Account__pfp {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 8px;
-}
-.Account__name {
-  max-width: 130px;
-}
-.Account__name-nickname {
-  color: var(--extraWhite);
-  overflow: hidden;
-  max-width: 100%;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  font-size: 0.9rem;
-}
-.Account__name-username {
-  color: var(--gray);
-  max-width: 100%;
-  font-size: 0.8rem;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
+
 .showMore {
   color: var(--extraWhite);
   font-size: 1rem;

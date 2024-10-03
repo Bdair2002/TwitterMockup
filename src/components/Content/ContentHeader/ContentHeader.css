@@ -1,0 +1,18 @@
+.content__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content__header-title {
+  color: var(--extraWhite);
+  font-weight: 800;
+}
+.content__header-posts {
+  color: var(--gray);
+  font-size: 0.8rem;
+}
+.content__header-arrow {
+  padding: 1.5rem;
+  margin-right: 1rem;
+}

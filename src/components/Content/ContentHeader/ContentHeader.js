@@ -3,8 +3,14 @@ import "./ContentHeader.css";
 const ContentHeader = ({ title, posts }) => {
   return (
     <div className="content__header">
-      <p className="content__header-title">{title}</p>
-      <p className="content__header-posts">{posts}</p>
+      <i
+        className="content__header-arrow fa-solid fa-arrow-left-long fa-xs"
+        style={{ color: "#ffffff" }}
+      ></i>
+      <div className="content__header-text">
+        <p className="content__header-title">{title}</p>
+        <p className="content__header-posts">{posts ? posts : 0} Posts</p>
+      </div>
     </div>
   );
 };

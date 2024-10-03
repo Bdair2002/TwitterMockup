@@ -36,7 +36,7 @@ const Suggestions = ({ limit }) => {
   const shownSuggestions = limitedSuggestions.map((suggestion) => (
     <li key={suggestion.username} className="suggestion__item">
       <Account user={suggestion} />
-      <Button>Follow</Button>
+      <Button className="btn">Follow</Button>
     </li>
   ));
 
