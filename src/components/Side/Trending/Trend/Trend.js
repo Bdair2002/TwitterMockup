@@ -11,7 +11,11 @@ const Trend = ({ trend }) => {
   const genreDisplay = trend.genre ? (
     <p className="genre">{trend.genre.join(".")}</p>
   ) : null;
-  const showMore = trend.expand ? <p id="showMore">...</p> : null;
+  const showMore = trend.expand ? (
+    <p id="showMore">
+      <i className="fa-solid fa-ellipsis"></i>
+    </p>
+  ) : null;
   return (
     <div className="trend">
       {genreDisplay ? (

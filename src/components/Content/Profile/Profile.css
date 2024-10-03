@@ -1,0 +1,98 @@
+.Profile {
+  border-bottom: 1px solid var(--gray);
+}
+.picture {
+  width: 100%;
+  position: relative;
+}
+.cover__img {
+  width: 100%;
+  height: 180px;
+  object-fit: fit;
+}
+.pfp__img {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  border-radius: 50%;
+  width: 10rem;
+  border: 4px solid var(--black);
+  height: 10rem;
+}
+.profile__actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  margin-bottom: 3rem;
+}
+.profile__actions .action-icon {
+  color: var(--white);
+}
+.profile__actions-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--gray);
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  margin-right: 5px;
+}
+.following {
+  height: 2rem;
+  width: 6rem;
+  padding: 0;
+  color: var(--white);
+  background-color: var(--black);
+  border: 2px solid var(--gray);
+}
+.follow {
+  height: 2rem;
+  width: 6rem;
+  padding: 0;
+}
+.profile__info {
+  padding: 0 1rem;
+}
+.profile__info-item {
+  list-style: none;
+  margin-bottom: 8px;
+  color: var(--white);
+  font-size: 0.9rem;
+}
+.profile__info-description {
+  margin-top: 1rem;
+}
+.profile__info-link a {
+  margin-right: 1rem;
+  font-size: 0.8rem;
+}
+.profile__info-link i {
+  color: var(--gray);
+  margin-right: 5px;
+}
+.profile__info-link span {
+  color: var(--gray);
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+.profile__info-followers span {
+  color: var(--gray);
+}
+
+.profile__info-followers span:nth-child(2) {
+  margin-left: 1rem;
+}
+.profile__info-followedby {
+  display: flex;
+  color: var(--gray);
+}
+.follower-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  background-color: var(--black);
+  border: 1px solid var(--gray);
+}
