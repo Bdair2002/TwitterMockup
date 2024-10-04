@@ -7,7 +7,7 @@ const ContentSuggestions = ({ data, summary }) => {
   const arr = [...data].map((suggestion, index) => {
     return (
       <div className="ContentSuggestions" key={index}>
-        {!summary && <i class="icon-col fa-solid fa-user-large fa-2xs"></i>}
+        {!summary && <i className="icon-col fa-solid fa-user-large fa-2xs"></i>}
         {!summary && suggestion.othersFollowing && (
           <p className="othersFollowing">
             {suggestion.othersFollowing[0]} and{" "}
