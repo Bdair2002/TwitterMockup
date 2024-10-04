@@ -18,3 +18,17 @@
   flex: 1;
   height: 100%;
 }
+.side__footer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side__footer-list li {
+  list-style: none;
+  color: var(--gray);
+  font-size: 0.8rem;
+  margin-right: 10px;
+}
+.side__footer .action-icon {
+  margin-left: 0;
+  color: var(--gray);
+}

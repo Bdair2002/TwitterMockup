@@ -1,6 +1,6 @@
 .container {
   display: flex;
-
+  overflow: hidden;
   background-color: var(--black);
 }
 .menu {
@@ -12,17 +12,12 @@
   flex: 1;
   height: 100vh;
 }
-.contentScroll {
-  flex: 1;
-  overflow-y: auto;
-}
-.scrollable {
-  display: flex;
-  overflow-y: auto;
-  height: 100vh;
-}
 .side {
   padding-right: 8rem;
   padding-left: 2rem;
   width: 500px;
+}
+.scrollable {
+  display: flex;
+  overflow-y: auto;
 }
