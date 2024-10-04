@@ -1,6 +1,5 @@
 import React from "react";
 import "./Profile.css";
-import ShowMoreText from "../../ShowMoreText";
 import Button from "../../Menu/Button";
 import AccountName from "../../../AccountName";
 import ProfileNav from "../ProfileNav/ProfileNav";
@@ -48,6 +47,7 @@ const Profile = ({ profile, limitIcons }) => {
             <div className="followedByIcons">
               {profile.FollowedBy.slice(0, limitIcons).map((person, index) => (
                 <img
+                  key={index}
                   className="follower-icon"
                   src={person.pfp}
                   style={{ right: index * 8 + "px" }}

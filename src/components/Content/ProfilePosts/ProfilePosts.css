@@ -5,6 +5,7 @@
   grid-row-gap: 0;
   padding: 0.5rem 1rem;
   border-bottom: 1px solid var(--gray);
+  border-right: 1px solid var(--gray);
 }
 .reportIcon {
   color: var(--gray);
@@ -45,7 +46,7 @@
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
-.author__info .showMore {
+.author__info .ellipses {
   color: var(--gray);
 }
 .tweet_stats {

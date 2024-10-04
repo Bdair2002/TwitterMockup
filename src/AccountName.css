@@ -23,3 +23,11 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.Account__name-description {
+  color: var(--extraWhite);
+  flex: 1;
+}
+.othersFollowing {
+  color: var(--gray);
+  font-size: 0.7rem;
+}

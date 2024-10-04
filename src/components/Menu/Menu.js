@@ -29,8 +29,8 @@ const Menu = () => {
 
       <Button className="btn">Post</Button>
       <footer className="menu__footer">
-        <Account user={user} />
-        <p className="showMore">
+        <Account user={user} showBtn={false} />
+        <p className="ellipses">
           <i className="fa-solid fa-ellipsis"></i>
         </p>
       </footer>

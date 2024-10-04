@@ -6,10 +6,11 @@ function App() {
   return (
     <div className="container">
       <Menu />
-      <Content />
-      <Side />
+      <div className="scrollable">
+        <Content />
+        <Side />
+      </div>
     </div>
   );
 }
-
 export default App;

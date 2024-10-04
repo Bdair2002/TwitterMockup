@@ -11,7 +11,7 @@ const Side = () => {
         <Searchbar />
       </div>
       <Container title="You might like" className="Suggestions">
-        <Suggestions limit="3" />
+        <Suggestions limit="3" summary={true} />
       </Container>
       <Container title="Trends for you" className="trends">
         <Trending limit="10" />
