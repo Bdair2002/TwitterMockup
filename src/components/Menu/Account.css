@@ -2,13 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
-.showMore {
+.ellipses {
   color: var(--extraWhite);
   font-size: 1rem;
   font-weight: 700;
   width: 20px;
   margin-left: auto;
   padding-right: 2rem;
+}
+.Account__pfp {
+  align-self: flex-start;
 }

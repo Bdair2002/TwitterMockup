@@ -3,7 +3,10 @@ import NavItem from "./NavItem";
 import "./ProfileNav.css";
 const ProfileNav = () => {
   const nav = ["Posts", "Replies", "Media", "Likes"].map((navitem, index) => (
-    <li className={index === 0 ? "selected navItem__text" : "navItem__text"}>
+    <li
+      key={index}
+      className={index === 0 ? "selected navItem__text" : "navItem__text"}
+    >
       <NavItem navitem={navitem} />
     </li>
   ));

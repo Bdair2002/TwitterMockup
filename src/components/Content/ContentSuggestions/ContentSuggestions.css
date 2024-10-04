@@ -1,0 +1,48 @@
+.ContentSuggestions {
+  display: grid;
+  grid-template-columns: 3rem repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0;
+  padding: 1rem 0;
+}
+.icon-col {
+  grid-area: 1 / 1 / 2 / 2;
+  color: var(--gray);
+  justify-self: end;
+  align-self: center;
+}
+.othersFollowing {
+  grid-area: 1 / 2 / 2 / 6;
+  align-self: end;
+}
+.pfp-col {
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: end;
+  margin: 0;
+}
+.name-col {
+  display: flex;
+  grid-area: 2 / 2 / 3 / 6;
+}
+.name-col .btn {
+  margin-left: auto;
+  color: var(--black);
+  padding: 0;
+  max-width: 4rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  background-color: var(--extraWhite);
+  padding: 0.5rem 1rem;
+  align-self: flex-start;
+  margin-right: 1rem;
+}
+.description-col {
+  color: var(--extraWhite);
+  grid-area: 3 / 2 / 3 / 6;
+  font-size: 0.9rem;
+}
+.content__suggestions-title {
+  color: var(--extraWhite);
+  padding: 1rem 0 0 1rem;
+  font-size: 1.2rem;
+}

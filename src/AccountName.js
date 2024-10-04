@@ -1,6 +1,7 @@
 import React from "react";
 import "./AccountName.css";
-const AccountName = ({ nickname, username, verified }) => {
+
+const AccountName = ({ nickname, username, verified, description }) => {
   return (
     <div className="Account__name">
       <p className="Account__name-nickname">
@@ -13,6 +14,8 @@ const AccountName = ({ nickname, username, verified }) => {
         )}
       </p>
       <p className="Account__name-username">{username}</p>
+
+      <p className="Account__name-description">{description}</p>
     </div>
   );
 };

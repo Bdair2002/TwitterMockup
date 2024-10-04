@@ -1,4 +1,9 @@
-.content {
+.content .Account__name {
+  max-width: 100%;
+}
+.contentsuggests {
   border-bottom: 1px solid var(--gray);
-  overflow-y: auto;
+  border-right: 1px solid var(--gray);
+  padding-right: 10px;
+  padding-bottom: 10px;
 }

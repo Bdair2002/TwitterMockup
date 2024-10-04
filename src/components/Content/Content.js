@@ -2,7 +2,10 @@ import React from "react";
 import ContentHeader from "./ContentHeader/ContentHeader";
 import Profile from "./Profile/Profile";
 import ProfilePosts from "./ProfilePosts/ProfilePosts";
+import data from "../Side/Suggestions/data";
 import "./Content.css";
+import ContentSuggestions from "./ContentSuggestions/ContentSuggestions";
+import ShowMoreText from "../ShowMoreText";
 const Content = () => {
   const profile = {
     cover: "./img/react-cover.png",
@@ -62,6 +65,14 @@ const Content = () => {
         title={profiletitle}
         tweetLimit="1"
       />
+      <div className="contentsuggests">
+        {" "}
+        <ContentSuggestions
+          data={[...data].splice(0, 3).reverse()}
+          summary={false}
+        />
+        <ShowMoreText />
+      </div>
     </div>
   );
 };

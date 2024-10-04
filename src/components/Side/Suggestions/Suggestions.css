@@ -10,12 +10,12 @@
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  padding: 1rem;
 }
 .suggestion__item {
   list-style-type: none;
   width: 100%;
   margin-bottom: 1em;
-  display: flex;
 }
 .suggestions .Account__name-nickname {
   font-size: 0.8rem;
@@ -33,4 +33,17 @@
   font-size: 0.7rem;
   font-weight: 700;
   background-color: var(--extraWhite);
+  padding: 0.5rem 1rem;
+  align-self: flex-start;
+}
+.Account__description {
+  color: var(--extraWhite);
+}
+.content .suggestions .btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.Suggestions .ContentSuggestions {
+  padding: 0.5rem 0;
 }

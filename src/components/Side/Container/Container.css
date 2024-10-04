@@ -5,11 +5,11 @@
   margin-bottom: 1rem;
   overflow: hidden;
 }
-.Container .showMore {
+.showMore {
   all: unset;
   color: var(--primary);
   font-size: 0.7rem;
-  padding: 0.4rem;
+  padding: 1rem;
   cursor: pointer;
 }
 .Container li {
